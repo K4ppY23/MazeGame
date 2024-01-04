@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MazeGame",
+			"Path": "..\\Source\\MazeGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MazeGameEditor",
+			"Path": "..\\Source\\MazeGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

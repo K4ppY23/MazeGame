@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MazeGame.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MazeGame.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MazeGameEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.editorconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Config\HoloLens">
+      <UniqueIdentifier>{4C8DD267-CDE7-336F-8602-F5F485D22BAB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\HoloLens\HoloLensEngine.ini">
+      <Filter>Config\HoloLens</Filter>
+    </None>
+    <Filter Include="Source\MazeGame">
+      <UniqueIdentifier>{51C05C4E-12FE-30D2-B8CE-D354208F50E2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MazeGame\MazeGame.Build.cs">
+      <Filter>Source\MazeGame</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MazeGame\MazeGame.cpp">
+      <Filter>Source\MazeGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MazeGame\MazeGame.h">
+      <Filter>Source\MazeGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MazeGame\MazeGameCharacter.cpp">
+      <Filter>Source\MazeGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MazeGame\MazeGameCharacter.h">
+      <Filter>Source\MazeGame</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MazeGame\MazeGameGameMode.cpp">
+      <Filter>Source\MazeGame</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MazeGame\MazeGameGameMode.h">
+      <Filter>Source\MazeGame</Filter>
+    </ClInclude>
+    <Filter Include="Source\MazeGame\Private">
+      <UniqueIdentifier>{2708840F-DFEA-3F81-853E-71FF50CE4C1D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MazeGame\Private\NewSpawnManager.cpp">
+      <Filter>Source\MazeGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MazeGame\Private\SpawnManager.cpp">
+      <Filter>Source\MazeGame\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MazeGame\Private\SpawnManagerEl.cpp">
+      <Filter>Source\MazeGame\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\MazeGame\Public">
+      <UniqueIdentifier>{7EFECA6B-456F-3C23-BCFB-DEF51D890402}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\MazeGame\Public\NewSpawnManager.h">
+      <Filter>Source\MazeGame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MazeGame\Public\SpawnManager.h">
+      <Filter>Source\MazeGame\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MazeGame\Public\SpawnManagerEl.h">
+      <Filter>Source\MazeGame\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
