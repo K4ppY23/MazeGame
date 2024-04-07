@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeMazeGame_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x816B4F79,
-				0x0791B58C,
+				0x8F3DEE67,
+				0xCDBFEA94,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_MazeGame.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_MazeGame.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_MazeGame(Z_Construct_UPackage__Script_MazeGame, TEXT("/Script/MazeGame"), Z_Registration_Info_UPackage__Script_MazeGame, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x816B4F79, 0x0791B58C));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_MazeGame(Z_Construct_UPackage__Script_MazeGame, TEXT("/Script/MazeGame"), Z_Registration_Info_UPackage__Script_MazeGame, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x8F3DEE67, 0xCDBFEA94));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -110,6 +110,9 @@
     <None Include="..\..\Source\MazeGame.Target.cs"/>
     <None Include="..\..\Source\MazeGameEditor.Target.cs"/>
     <None Include="..\..\.editorconfig"/>
+    <None Include="..\..\.gitattributes"/>
+    <None Include="..\..\.gitignore"/>
+    <None Include="..\..\.vsconfig"/>
     <None Include="..\..\Config\DefaultEditor.ini"/>
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini"/>
     <None Include="..\..\Config\DefaultEngine.ini"/>
@@ -135,6 +138,11 @@
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <ClInclude Include="..\..\Source\MazeGame\MazeGameGameMode.h"/>
+    <ClCompile Include="..\..\Source\MazeGame\Private\MyPlayerController.cpp">
+      <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
     <ClCompile Include="..\..\Source\MazeGame\Private\NewSpawnManager.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
@@ -150,6 +158,7 @@
       <ForcedIncludeFiles>$(ClCompile_ForcedIncludeFiles)</ForcedIncludeFiles>
       <AdditionalOptions>$(ClCompile_AdditionalOptions)</AdditionalOptions>
     </ClCompile>
+    <ClInclude Include="..\..\Source\MazeGame\Public\MyPlayerController.h"/>
     <ClInclude Include="..\..\Source\MazeGame\Public\NewSpawnManager.h"/>
     <ClInclude Include="..\..\Source\MazeGame\Public\SpawnManager.h"/>
     <ClInclude Include="..\..\Source\MazeGame\Public\SpawnManagerEl.h"/>
